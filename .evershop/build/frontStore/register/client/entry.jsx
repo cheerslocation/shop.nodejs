@@ -6,58 +6,97 @@
       
 Area.defaultProps.components = {
   'icon-wrapper': {
-    XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY2hlY2tvdXRccGFnZXNcZnJvbnRTdG9yZVxhbGxcTWluaUNhcnQuanN4: {
-      id: 'XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY2hlY2tvdXRccGFnZXNcZnJvbnRTdG9yZVxhbGxcTWluaUNhcnQuanN4',
+    '9cfbb841abe9ad4e5d5987512bf00687': {
+      id: '9cfbb841abe9ad4e5d5987512bf00687',
+      sortOrder: 5,
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\node_modules\\@evershop\\evershop\\src\\modules\\catalog\\pages\\frontStore\\all\\SearchBox.jsx')
+    },
+    db7a1f3642fb1113f1cdaa4b6e0dfcf8: {
+      id: 'db7a1f3642fb1113f1cdaa4b6e0dfcf8',
       sortOrder: 10,
-      component: require('C:\\vscode\\project-template\\node_modules\\@evershop\\evershop\\src\\modules\\checkout\\pages\\frontStore\\all\\MiniCart.jsx')
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\node_modules\\@evershop\\evershop\\src\\modules\\checkout\\pages\\frontStore\\all\\MiniCart.jsx')
     },
-    XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY21zXHBhZ2VzXGZyb250U3RvcmVcYWxsXE1vYmlsZU1lbnUuanN4: {
-      id: 'XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY21zXHBhZ2VzXGZyb250U3RvcmVcYWxsXE1vYmlsZU1lbnUuanN4',
-      sortOrder: 50,
-      component: require('C:\\vscode\\project-template\\node_modules\\@evershop\\evershop\\src\\modules\\cms\\pages\\frontStore\\all\\MobileMenu.jsx')
-    },
-    XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY3VzdG9tZXJccGFnZXNcZnJvbnRTdG9yZVxhbGxcVXNlckljb24uanN4: {
-      id: 'XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY3VzdG9tZXJccGFnZXNcZnJvbnRTdG9yZVxhbGxcVXNlckljb24uanN4',
+    '1f94e1f115efa75abb68f5d5ebdc127c': {
+      id: '1f94e1f115efa75abb68f5d5ebdc127c',
       sortOrder: 30,
-      component: require('C:\\vscode\\project-template\\node_modules\\@evershop\\evershop\\src\\modules\\customer\\pages\\frontStore\\all\\UserIcon.jsx')
-    }
-  },
-  body: {
-    'XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY21zXHBhZ2VzXGZyb250U3RvcmVcYWxsXExheW91dC5qc3g=': {
-      id: 'XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY21zXHBhZ2VzXGZyb250U3RvcmVcYWxsXExheW91dC5qc3g=',
-      sortOrder: 1,
-      component: require('C:\\vscode\\project-template\\node_modules\\@evershop\\evershop\\src\\modules\\cms\\pages\\frontStore\\all\\Layout.jsx')
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\node_modules\\@evershop\\evershop\\src\\modules\\customer\\pages\\frontStore\\all\\UserIcon.jsx')
     },
-    'XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY21zXHBhZ2VzXGZyb250U3RvcmVcYWxsXE5vdGlmaWNhdGlvbi5qc3g=': {
-      id: 'XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY21zXHBhZ2VzXGZyb250U3RvcmVcYWxsXE5vdGlmaWNhdGlvbi5qc3g=',
-      sortOrder: 10,
-      component: require('C:\\vscode\\project-template\\node_modules\\@evershop\\evershop\\src\\modules\\cms\\pages\\frontStore\\all\\Notification.jsx')
-    }
-  },
-  header: {
-    XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY21zXHBhZ2VzXGZyb250U3RvcmVcYWxsXExvZ28uanN4: {
-      id: 'XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY21zXHBhZ2VzXGZyb250U3RvcmVcYWxsXExvZ28uanN4',
-      sortOrder: 1,
-      component: require('C:\\vscode\\project-template\\node_modules\\@evershop\\evershop\\src\\modules\\cms\\pages\\frontStore\\all\\Logo.jsx')
-    },
-    XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY21zXHBhZ2VzXGZyb250U3RvcmVcYWxsXE1lbnUuanN4: {
-      id: 'XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY21zXHBhZ2VzXGZyb250U3RvcmVcYWxsXE1lbnUuanN4',
-      sortOrder: 5,
-      component: require('C:\\vscode\\project-template\\node_modules\\@evershop\\evershop\\src\\modules\\cms\\pages\\frontStore\\all\\Menu.jsx')
-    }
-  },
-  head: {
-    XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY21zXHBhZ2VzXGZyb250U3RvcmVcYWxsXE1ldGEuanN4: {
-      id: 'XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY21zXHBhZ2VzXGZyb250U3RvcmVcYWxsXE1ldGEuanN4',
-      sortOrder: 5,
-      component: require('C:\\vscode\\project-template\\node_modules\\@evershop\\evershop\\src\\modules\\cms\\pages\\frontStore\\all\\Meta.jsx')
+    c65b62edf46cb9e47153284ea0f3193b: {
+      id: 'c65b62edf46cb9e47153284ea0f3193b',
+      sortOrder: 50,
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\themes\\eve\\pages\\all\\MobileMenu.jsx')
     }
   },
   content: {
-    XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY3VzdG9tZXJccGFnZXNcZnJvbnRTdG9yZVxyZWdpc3RlclxSZWdpc3RlckZvcm0uanN4: {
-      id: 'XG5vZGVfbW9kdWxlc1xAZXZlcnNob3BcZXZlcnNob3Bcc3JjXG1vZHVsZXNcY3VzdG9tZXJccGFnZXNcZnJvbnRTdG9yZVxyZWdpc3RlclxSZWdpc3RlckZvcm0uanN4',
+    '93eef20b77060bf9d94e428dd6abb0db': {
+      id: '93eef20b77060bf9d94e428dd6abb0db',
+      sortOrder: 0,
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\node_modules\\@evershop\\evershop\\src\\modules\\cms\\pages\\frontStore\\all\\Breadcrumb.jsx')
+    },
+    '9232df6215639dee3f9af69d30a0e1c7': {
+      id: '9232df6215639dee3f9af69d30a0e1c7',
       sortOrder: 10,
-      component: require('C:\\vscode\\project-template\\node_modules\\@evershop\\evershop\\src\\modules\\customer\\pages\\frontStore\\register\\RegisterForm.jsx')
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\node_modules\\@evershop\\evershop\\src\\modules\\customer\\pages\\frontStore\\register\\RegisterForm.jsx')
+    },
+    e0304876cec1be90a97454223569685f: {
+      id: 'e0304876cec1be90a97454223569685f',
+      sortOrder: 50,
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\themes\\eve\\pages\\all\\Newsletter.jsx')
+    }
+  },
+  footer: {
+    '4b1b2cf570338276048ddaa382ffbe31': {
+      id: '4b1b2cf570338276048ddaa382ffbe31',
+      sortOrder: 10,
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\node_modules\\@evershop\\evershop\\src\\modules\\cms\\pages\\frontStore\\all\\Footer.jsx')
+    }
+  },
+  head: {
+    ef7ab5dff275c1b3eb6184669b7cba30: {
+      id: 'ef7ab5dff275c1b3eb6184669b7cba30',
+      sortOrder: 5,
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\node_modules\\@evershop\\evershop\\src\\modules\\cms\\pages\\frontStore\\all\\HeadTags.jsx')
+    }
+  },
+  body: {
+    '8d52702e890250d626199043e665bcb3': {
+      id: '8d52702e890250d626199043e665bcb3',
+      sortOrder: 1,
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\themes\\eve\\pages\\all\\Layout.jsx')
+    },
+    '907bec39c642dd741230eea7d6a57dcd': {
+      id: '907bec39c642dd741230eea7d6a57dcd',
+      sortOrder: 10,
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\node_modules\\@evershop\\evershop\\src\\modules\\cms\\pages\\frontStore\\all\\Notification.jsx')
+    }
+  },
+  header: {
+    f99b5bd849d6010f1473d44117a85d50: {
+      id: 'f99b5bd849d6010f1473d44117a85d50',
+      sortOrder: 5,
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\themes\\eve\\pages\\all\\Logo.jsx')
+    },
+    fb2e4ba2761a969954dd38fbbd48b1b3: {
+      id: 'fb2e4ba2761a969954dd38fbbd48b1b3',
+      sortOrder: 1,
+      component: require('H:\\development\\vsc workspace\\cheerslocation.shop.nodejs\\shop.nodejs\\themes\\eve\\pages\\all\\Menu.jsx')
+    }
+  },
+  '*': {
+    collection_products: {
+      id: 'collection_products',
+      sortOrder: 0,
+      component: require('@evershop/evershop/src/components/frontStore/widgets/CollectionProducts.jsx')
+    },
+    text_block: {
+      id: 'text_block',
+      sortOrder: 0,
+      component: require('@evershop/evershop/src/components/frontStore/widgets/TextBlock.jsx')
+    },
+    basic_menu: {
+      id: 'basic_menu',
+      sortOrder: 0,
+      component: require('@evershop/evershop/src/components/frontStore/widgets/BasicMenu.jsx')
     }
   }
 } 
