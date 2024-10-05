@@ -5,11 +5,12 @@
   "private": true,
   "author": "Maxime Dansette",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheerslocation/shop.nodejs.git"
+  },
   
-  "devDependencies": {
-    "evershop": "^1.2.1",
-    "nodemon": "^2.0.7"
-  },  
+
 
   "workspaces": [
     "extensions/*"
@@ -30,5 +31,8 @@
   "dependencies": {
     "@evershop/evershop": "^1.2.1",
     "react-refresh": "^0.14.0"
+  },
+  "devDependencies": {
+    "nodemon": ">=2.0.7"
   }
 }
