@@ -1,8 +1,31 @@
 {
-  "scripts": {
+  "name": "evershop",
+  "description": "Cheers Location website",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Maxime Dansette",
+  "license": "ISC",
+  
+  "devDependencies": {
+    "evershop": "^1.2.1",
+    "nodemon": "^2.0.7"
+  },  
+
+  "workspaces": [
+    "extensions/*"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0",
+    "postgres": ">=13.0.0"
+  }, 
+ "scripts": {
     "start": "evershop start",
     "build": "evershop build",
-    "setup": "evershop install"
+    "setup": "evershop install",
+    "user:create": "evershop user:create",
+    "user:changePassword": "evershop user:changePassword",
+    "dev": "evershop dev"
   },
   "dependencies": {
     "@evershop/evershop": "^1.2.1",
