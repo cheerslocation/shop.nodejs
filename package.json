@@ -9,9 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/cheerslocation/shop.nodejs.git"
   },
-  
-
-
   "workspaces": [
     "extensions/*"
   ],
@@ -19,8 +16,8 @@
     "node": ">=14.0.0",
     "npm": ">=7.0.0",
     "postgres": ">=13.0.0"
-  }, 
- "scripts": {
+  },
+  "scripts": {
     "start": "evershop start",
     "build": "evershop build",
     "setup": "evershop install",
@@ -29,10 +26,12 @@
     "dev": "evershop dev"
   },
   "dependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
     "@evershop/evershop": "^1.2.1",
     "react-refresh": "^0.14.0"
   },
   "devDependencies": {
-    "nodemon": ">=2.0.7"
+    "nodemon": "^3.1.7"
   }
 }
