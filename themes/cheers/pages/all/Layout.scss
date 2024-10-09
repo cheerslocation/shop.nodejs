@@ -67,7 +67,7 @@ p {
     .h1,
     h1 {
       font-size: $h1-font-size;
-    }
+      }
     .h2,
     h2 {
       font-size: $h2-font-size;
@@ -145,6 +145,7 @@ p {
     .h1,
     h1 {
       font-size: $h1-font-size;
+      color:white;
     }
     .h2,
     h2 {
@@ -202,11 +203,12 @@ h6 {
 }
 
 .footer {
-  background-color: #f6f6f6;
+  background-color: #212326;
   margin-top: 9rem;
   padding-top: 1rem;
   padding-block-end: 1rem;
   border-top: 1px solid #ddd;
+  color: #fff;
   .card-icons {
     svg {
       height: 4rem;

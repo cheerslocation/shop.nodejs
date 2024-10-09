@@ -4,11 +4,11 @@ function Newsletter() {
   return (
     <div className="mt-[50px]">
       <div className="page-width">
-        <div className="rounded p-[30px] bg-[#E8D5C4]">
+        <div className="rounded p-[30px] bg-[#E0DAEE]">
           <div className="mb-3">
             <h2 className="text-center">NEWSLETTER</h2>
             <p className="text-center">
-              Subscribe to our newsletter and get 100% off your first purchase!
+              Souscrivez à notre noewsletter pour être tenu informé!
             </p>
           </div>
           <div className="flex justify-center items-center">
@@ -18,7 +18,7 @@ function Newsletter() {
                 type="text"
                 placeholder="Enter your email address"
               />
-              <button className="button">Subscribe</button>
+              <button className="button">Souscrire</button>
             </div>
           </div>
         </div>

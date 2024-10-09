@@ -4,14 +4,14 @@ import "./MainBanner.scss";
 function MainBanner() {
   return (
     <div className="main-banner-home flex items-center">
-      <div className="page-width grid grid-cols-1 md:grid-cols-2 gap-2">
-        <div className="text-center md:text-left px-2 ">
-          <h2 className="h1 ">Unleash Your Inner Style Icon</h2>
-          <p>Discover the Latest Trends and Elevate Your Wardrobe Today</p>
+      <div className="page-width grid grid-cols-1 md:grid-cols-1 gap-2">
+        <div className="text-center md:text-center px-2 text-white ">
+          <h2 className="h1">Location de mobilier de réception</h2>
+          <p>Cheers location vous accompagne dans l'organisation de vos évènements</p>
           <p></p>
-          <a className="button button-primary" href="#">
+          {/* <a className="button button-primary" href="#">
             SHOW NOW
-          </a>
+          </a> */}
         </div>
         <div />
       </div>

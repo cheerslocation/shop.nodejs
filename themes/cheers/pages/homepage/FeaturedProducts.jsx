@@ -19,6 +19,25 @@ export default function FeaturedProducts({ collection }) {
   );
 }
 
+// export default function FeaturedProducts({ collection2 }) {
+//   if (!collection2) {
+//     return null;
+//   }
+//   return (
+//     <div className="pt-3">
+//       <div className="page-width">
+//         <h2 className="mt-3 mb-3 text-center uppercase  tracking-widest">
+//           {collection2.name}
+//         </h2>
+//         <ProductList products={collection2.products.items} countPerRow={3} />
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
 FeaturedProducts.propTypes = {
   collection: PropTypes.shape({
     collectionId: PropTypes.number.isRequired,
@@ -60,7 +79,37 @@ export const layout = {
 
 export const query = `
   query query {
-    collection (code: "homepage") {
+    collection (code: "feature_chaises") {
+      collectionId
+      name
+      products (filters: [{key: "limit", operation: eq, value: "6"}]) {
+        items {
+          productId
+          name
+          price {
+            regular {
+              value
+              text
+            }
+            special {
+              value
+              text
+            }
+            }
+          image {
+            alt
+            url: listing
+          }
+          url
+        }
+      }
+    }
+  }
+`;
+
+export const query2 = `
+  query query {
+    collection2 (code: "feature_tables") {
       collectionId
       name
       products (filters: [{key: "limit", operation: eq, value: "6"}]) {
